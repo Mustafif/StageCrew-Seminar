@@ -1,6 +1,6 @@
 build: 
 	echo "Building..."
-	pdflatex src/SC_Seminar.tex --output-directory=build
+	pdflatex --output-directory=build src/SC_Seminar.tex 
 	echo "Cleaning..."
 	make cleanup
 cleanup: 
