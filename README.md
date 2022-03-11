@@ -8,5 +8,5 @@
 
 To build, simply use the Makefile in the root directory: 
 ```
-$ make
+$ make build 
 ```
